@@ -9,7 +9,7 @@ keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2015-10-01"
 lastdate: "2016-12-31"
-tags: "Microscopy, cell biology"
+tags_: "Microscopy, cell biology"
 thumbnail_override: "/images/projects/2015-10-01-HanqianZhangandHansTorma/588baa903c33c.png"
 
 # author: [ "" ] # your GitHub user name

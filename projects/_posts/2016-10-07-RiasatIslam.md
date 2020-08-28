@@ -9,7 +9,7 @@ keywords: "Light microscopy, Model organisms and tissues"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2016-10-07"
 lastdate: "2017-03-21"
-tags: "Microscopy, model organisms and tissues"
+tags_: "Microscopy, model organisms and tissues"
 thumbnail_override: "/images/projects/2016-10-07-RiasatIslam/587f15763f32a.png"
 
 # author: [ "" ] # your GitHub user name

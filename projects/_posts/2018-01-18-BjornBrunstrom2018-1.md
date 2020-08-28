@@ -9,7 +9,7 @@ keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-01-18"
 lastdate: "2018-02-26"
-tags: "Microscopy, model organisms and tissues"
+tags_: "Microscopy, model organisms and tissues"
 thumbnail_override: "/images/projects/2018-01-18-BjornBrunstrom2018-1/5c3d9e72ec0a9.png"
 
 # author: [ "" ] # your GitHub user name

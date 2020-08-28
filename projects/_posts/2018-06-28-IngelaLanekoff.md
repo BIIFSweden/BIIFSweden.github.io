@@ -9,7 +9,7 @@ keywords: "Cell biology, Imaging mass spectrometry"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-06-28"
 lastdate: "2018-08-31"
-tags: "Microscopy, model organisms and tissues"
+tags_: "Microscopy, model organisms and tissues"
 thumbnail_override: "/images/projects/2018-06-28-IngelaLanekoff/5c40ab6505ec2.png"
 
 # author: [ "" ] # your GitHub user name

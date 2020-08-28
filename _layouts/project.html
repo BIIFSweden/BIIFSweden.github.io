@@ -6,11 +6,15 @@ layout: page
     <div class="col-lg-9">
         {% include /util/youtube-embed.html %}
         {{ content }}
+        <br/>
+        {% if page.tags_ != "None" %}
+            <strong>Tags:</strong> {{ page.tags_ }}
+        {% endif %}
     </div>
     <div class="col-lg-3">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Project Info</h3>
+                <h3 class="panel-title">Project Information</h3>
             </div>
             <ul class="list-group">
                 {% if page.project_homepage_url %}
@@ -18,14 +22,20 @@ layout: page
                     <a class="btn btn-primary" href="{{ page.project_homepage_url }}">Project homepage</a>
                 </li>
                 {% endif %}
-                {% if page.author %}
                 <li class="list-group-item">
-                    {% for author in page.author %}
-                    {% include /util/author-card.html author = author %}
-                    {% endfor %}
+                    <h4>BIIF Principal Investigators</h4>
+                    <ul>
+                        {% for author in page.author %}
+                            <li>{{ author }}</li>
+                        {% endfor %}
+                    </ul>
+                    <h4>External Authors</h4>
                     {{ page.external }}
                 </li>
-                {% endif %}
+                <li class="list-group-item">
+                    <h4>Date</h4>
+                    {{ page.initdate }} 🠚 {{ page.lastdate }}
+                </li>
             </ul>
         </div>
     </div>

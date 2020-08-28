@@ -9,7 +9,7 @@ keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2017-12-01"
 lastdate: "2019-11-15"
-tags: "Microscopy, cell biology"
+tags_: "Microscopy, cell biology"
 thumbnail_override: "/images/projects/2017-12-01-RekhaTripathi/5a5e141a69ca7.png"
 
 # author: [ "" ] # your GitHub user name

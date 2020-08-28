@@ -9,7 +9,7 @@ keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-10-25"
 lastdate: "2018-11-25"
-tags: "Medical image analysis, diagnosis and surgery planning"
+tags_: "Medical image analysis, diagnosis and surgery planning"
 thumbnail_override: "/images/projects/2018-10-25-OscarFernandezCapetillo2018-1/5c40a7539c408.png"
 
 # author: [ "" ] # your GitHub user name
