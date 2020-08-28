@@ -1,0 +1,35 @@
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - repo-metadata.html
+  - publish.rb
+  - vendor
+  - cibuild.sh
+  - .travis.yml
+  - maintainer-notes.md
+
+plugins:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "projects"
+      type: "posts"
+    values:
+      layout: "project"
+      excerpt_separator: <!--more-->    
+kramdown:
+  toc_levels: "2,3"
+  input: GFM

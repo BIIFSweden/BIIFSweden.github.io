@@ -1,0 +1,32 @@
+---
+layout: page
+---
+
+<div class="row">
+    <div class="col-lg-9">
+        {% include /util/youtube-embed.html %}
+        {{ content }}
+    </div>
+    <div class="col-lg-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Project Info</h3>
+            </div>
+            <ul class="list-group">
+                {% if page.project_homepage_url %}
+                <li class="list-group-item">
+                    <a class="btn btn-primary" href="{{ page.project_homepage_url }}">Project homepage</a>
+                </li>
+                {% endif %}
+                {% if page.author %}
+                <li class="list-group-item">
+                    {% for author in page.author %}
+                    {% include /util/author-card.html author = author %}
+                    {% endfor %}
+                    {{ page.external }}
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</div>

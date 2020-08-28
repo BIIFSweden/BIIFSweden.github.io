@@ -1,0 +1,28 @@
+---
+# Fill out as many of these as you can, and delete the rest.
+# Text on a line after a "#" is a comment and is ignored for the published page.
+
+title: "Cell Distribution and Protein Expression in the Ectocervix"
+author: ["Petter Ranefall", " Carolina W&auml;hlby"]
+external: "Anna Gibbs, Gabriella Edfeldt, Maria R&ouml;hl, Annelie Tjernlund - Dept. of Medicine, KI"
+keywords: "Light microscopy, Model organisms and tissues"
+funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
+initdate: "2015-04-01"
+lastdate: "2018-12-31"
+tags: "Microscopy, model organisms and tissues"
+thumbnail_override: "/images/projects/2015-04-01-AnnaGibbs/5878e879efadb.png"
+
+# author: [ "" ] # your GitHub user name
+# or make a list if there is more than one author
+# author: [ "@person1", "@person2", "person without GitHub account" ]
+
+# project_homepage_url: "http://example.com/my-super-cool-project" # Homepage for this project
+# source_code_url: "https://github.com/myuser/myrepo" # Provide a link to your code
+# building_instructions_url: "http://example.com/building-instructions.pdf" # how to build the model out of LEGO (*not* how to build the source code)
+
+excerpt: " The female genital mucosa presents a comprehensive natural immune defense against HIV infection, although during exposure to a high dose of virus this is not enough  to protect the individual against..."
+---
+
+![Cell Distribution and Protein Expression in the Ectocervix](/images/projects/2015-04-01-AnnaGibbs/5878e879efadb.png){: .img-responsive}
+## Project Description
+ The female genital mucosa presents a comprehensive natural immune defense against HIV infection, although during exposure to a high dose of virus this is not enough <br/><br/>to protect the individual against viral transmission. Some individuals have a stronger resistance against HIV than others and therefore it is highly important to <br/><br/>investigate which factors that contribute to an effective local protection against sexual infection. The aim of this study is to quantify gene expression in the <br/><br/>target cells of HIV in ectocervix, and measure the distance to the vaginal lumen, as well as epithelial thickness. These parameters will be compared in women <br/><br/>involved in sex work between the groups of HIV-infected, highly HIV exposed HIV-uninfected that seems to be resistant, and HIV-uninfected women who have been <br/><br/>involved in sex work for a short period. The project led to a joint publication: A. Gibbs, M. Buggert, G. Edfeldt, P. Ranefall, A. Introini, S. Cheuk, E. Martini, L. Eidsmo, T.B. Ball, J. Kimani, R. Kaul, A. Karlsson, C. W&auml;hlby, K. Broliden, and A. Tjernlund. HIV-infected women have high numbers of CD103-CD8+ T cells residing close to the basal membrane of the ectocervical epithelium. Journal of Infectious Diseases 2018 Jul 2;218(3):453-465. doi: 10.1093/infdis/jix661 

@@ -1,0 +1,35 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{{ page.title | xml_escape }}</title>
+    {% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt | strip_html | strip | xml_escape }}"/>
+    {% else %}
+    <!-- Description content not available -->
+    {% endif %}
+    <link rel="alternate" type="application/atom+xml" href="/news/atom.xml" title="Atom feed">
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Bootstrap styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="/stylesheets/site-structure.css">
+    <link rel="stylesheet" href="/stylesheets/landing-content.css">
+
+    <!-- Template for search results -->
+    <script type="text/html" id="search-result-template">
+        <div class="search-result">
+            <a data-href="href"><h4 data-content="title"></h4></a>
+            <span data-content="breadcrumbs" class="search-result-breadcrumbs"></span>
+            <span data-content="author" class="search-result-author"></span><br/>
+        </div>
+    </script>
+
+    {% if page.extra-head-content %}
+    {{ page.extra-head-content }}
+    {% endif %}
+</head>

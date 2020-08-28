@@ -1,0 +1,25 @@
+// Variable overrides
+$brand-primary: rgb(7,90,99);//#da5e25;
+$brand-danger: rgb(7,90,99);//#ef2d19;
+$link-color: #808080;//rgb(7,90,99);//#ff9b1a;
+$navbar-default-link-hover-color: $link-color;
+$code-color: #cccccc;
+$code-bg: #111111;
+$pre-bg: #111111;
+$pre-color: #cccccc;
+$pre-border-color: transparent;
+$icon-font-path: "/fonts/bootstrap/";
+
+
+$primary: rebeccapurple;
+$danger: #dd0000;
+$success: lime;
+$warning: orange;
+$info: aqua;
+
+$body-bg: #fff;
+$text-color: #000000;
+
+
+
+@import "variables";

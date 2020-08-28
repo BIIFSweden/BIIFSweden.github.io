@@ -1,0 +1,72 @@
+---
+---
+
+@import "custom-variables";
+
+.language-icon {
+    height: 25px;
+}
+
+.project-thumbnail-container {
+    img {
+        margin-top: 15px;
+        padding-left: 15px !important; 
+        padding-right: 15px !important; 
+    }
+    
+    .caption {
+        padding-bottom: 0;
+    }
+    
+    .btn-primary {
+        width: 100%;
+    }
+}
+
+.centered-light-heading {
+    font-size: 16px;
+    color: #aaa;
+    text-align: center;
+    margin: 5px 0 5px !important;
+}
+
+.download-button-small {
+    margin: 0 6px;
+}
+
+.dark-bg {
+    background-color: #1a1a1a;
+}
+
+.colored-section {
+    padding-bottom: 10.5px;
+}
+
+.release-link-container {
+    display: none;
+}
+
+:target.tutorial-panel {
+    animation: target-tutorial-panel-fade 5s 1;
+
+    .panel-heading {
+        animation: target-tutorial-panel-header-fade 5s 1;
+    }
+}
+
+@keyframes target-tutorial-panel-fade {
+    0% { border-color: $brand-primary; }
+    80% { border-color: $brand-primary; }
+    100% { border-color: $panel-default-border; }
+}
+
+@keyframes target-tutorial-panel-header-fade {
+    0% { border-left-color: $brand-primary; }
+    80% { border-left-color: $brand-primary; }
+    100% { border-left-color: $panel-default-border; }
+}
+
+table.table-left-header > tbody > tr > th:last-of-type {
+    border-right-color: lighten($table-border-color, 20%);
+    border-right-width: 2px;
+}
