@@ -4,7 +4,7 @@
 
 title: "Probing the role of Atox1 in breast cancer cell migration"
 author: ["Anna Klemm"]
-external: "St&etilde;phanie Blockhuys, Pernilla Wittung Stafshede, Chalmers University of Technology, G&ouml;teborg"
+external: "Stéphanie Blockhuys, Pernilla Wittung Stafshede, Chalmers University of Technology, G&ouml;teborg"
 excerpt: " We study the role of Atox1 in breast cancer cell migration. Atox1 is a cytoplasmic Cu transporter and is overexpressed in breast cancer tissue. Previously, we observed using wound healing studies tha..."
 image: "/images/projects/2018-10-23-St&etilde;phanieBlockhuys.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
@@ -16,4 +16,4 @@ tags_: "Microscopy, cell biology"
 ---
 
 ## Project Description
- We study the role of Atox1 in breast cancer cell migration. Atox1 is a cytoplasmic Cu transporter and is overexpressed in breast cancer tissue. Previously, we observed using wound healing studies that upon Atox1 silencing the cell migration potential was reduced. Now, using the single cell approach, we want to define in details the role of Atox1 in the cancer cell migration. So far, we used manual cell tracking analysis, but now we look forward to have an automatic cell tracking analysis approach to make the evaluation less laborious and more consistent. With this study, we hope to determine in more details the role of Atox1 in cancer cell migration. 
+We study the role of Atox1 in breast cancer cell migration. Atox1 is a cytoplasmic Cu transporter and is overexpressed in breast cancer tissue. Previously, we observed using wound healing studies that upon Atox1 silencing the cell migration potential was reduced. Now, using the single cell approach, we want to define in details the role of Atox1 in the cancer cell migration. So far, we used manual cell tracking analysis, but now we look forward to have an automatic cell tracking analysis approach to make the evaluation less laborious and more consistent. With this study, we hope to determine in more details the role of Atox1 in cancer cell migration. 
