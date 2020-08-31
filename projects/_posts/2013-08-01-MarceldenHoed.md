@@ -17,4 +17,5 @@ tags_: "Microscopy, model organisms and tissues"
 
 ## Project Description
 The aim of this project is to identify novel targets for the therapeutic intervention of coronary artery disease. This is done by following-up results from genome-wide association studies in epidemiological studies using a zebrafish model system. Using image analysis we try to identify and characterize causal genes within loci that have so far been identified as associated with coronary heart disease by (high-throughput) screening of atherogenic processes in wildtype and mutant zebrafish, both before and after feeding on a control diet or a diet high in cholesterol.
+
 Using confocal microscopy we can image fat accumulation in the zebrafish. We have also developed methods for length and volume measurements as well as quantification of macrophages, neutrophils, IK17 and the overlap with these expressions and stationary lipids. Our results confirm that zebrafish larvae represent a promising model system for early-stage atherosclerosis. 
