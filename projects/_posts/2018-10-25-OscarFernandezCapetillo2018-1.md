@@ -5,24 +5,15 @@
 title: "KNIME support for High-Content Screening"
 author: ["Anna Klemm"]
 external: "Jordi Carreras Puigvert, Oscar Fernandez Capetillo, Karolinska Institutet, Stockholm"
+excerpt: "KNIME is a free and open-source data analytics platform. It is very suitable to sort, filter, analyze and display data obtained in High Content Screens. In this project data-normalization, filtering a..."
+image: "/images/projects/2018-10-25-OscarFernandezCapetillo2018-1/5c40a7539c408.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-10-25"
 lastdate: "2018-11-25"
 tags_: "Medical image analysis, diagnosis and surgery planning"
-thumbnail_override: "/images/projects/2018-10-25-OscarFernandezCapetillo2018-1/5c40a7539c408.png"
-
-# author: [ "" ] # your GitHub user name
-# or make a list if there is more than one author
-# author: [ "@person1", "@person2", "person without GitHub account" ]
-
-# project_homepage_url: "http://example.com/my-super-cool-project" # Homepage for this project
-# source_code_url: "https://github.com/myuser/myrepo" # Provide a link to your code
-# building_instructions_url: "http://example.com/building-instructions.pdf" # how to build the model out of LEGO (*not* how to build the source code)
-
-excerpt: "KNIME is a free and open-source data analytics platform. It is very suitable to sort, filter, analyze and display data obtained in High Content Screens. In this project data-normalization, filtering a..."
+# project_homepage_url: "http://example.com/external-project-page" # Optional external homepage for this project
 ---
 
-![KNIME support for High-Content Screening](/images/projects/2018-10-25-OscarFernandezCapetillo2018-1/5c40a7539c408.png){: .img-responsive}
 ## Project Description
 KNIME is a free and open-source data analytics platform. It is very suitable to sort, filter, analyze and display data obtained in High Content Screens. In this project data-normalization, filtering and data visualization tools were used.

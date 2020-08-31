@@ -5,6 +5,9 @@ layout: page
 <div class="row">
     <div class="col-lg-9">
         {% include /util/youtube-embed.html %}
+        {% if page.image %}
+            <img src="{{  page.image }}" alt="{{ page.title }}" class="img-responsive">
+        {% endif %}
         {{ content }}
         <br/>
         {% if page.tags_ != "None" %}
