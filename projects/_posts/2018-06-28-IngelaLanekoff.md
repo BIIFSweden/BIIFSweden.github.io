@@ -6,7 +6,7 @@ title: "Imaging mass spectrometry of mouse implantation sites"
 author: ["Anna Klemm", " Carolina W&auml;hlby"]
 external: "Ingela Lanekoff, Uppsala Univeristy"
 excerpt: " Mass spectrometry imaging enables visualization of the chemical microenvironment in regional features within thin tissue sections. In this project, thin tissue sections of mouse embryo implantation s..."
-image: "/images/projects/2018-06-28-IngelaLanekoff/5c40ab6505ec2.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2018-06-28-IngelaLanekoff.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Imaging mass spectrometry"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-06-28"

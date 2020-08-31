@@ -6,7 +6,7 @@ title: "Intracellular trafficking pathways of PDGFRb"
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Natalia Papadopoulos, Carl-Henrik Heldin, Department of Medical Biochemistry and Microbiology, Uppsala Universiyty"
 excerpt: " This project investigates trafficking pathways of PDGFR? from the cell surface upon activation with PDGF-BB ligand. PDGFR? is known to form dot-like clusters upon activation that only partially co-lo..."
-image: "/images/projects/2017-12-04-NataliaPapadopoulos/5c3da3120ecac.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2017-12-04-NataliaPapadopoulos.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2017-12-04"

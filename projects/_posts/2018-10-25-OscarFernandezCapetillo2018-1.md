@@ -6,7 +6,7 @@ title: "KNIME support for High-Content Screening"
 author: ["Anna Klemm"]
 external: "Jordi Carreras Puigvert, Oscar Fernandez Capetillo, Karolinska Institutet, Stockholm"
 excerpt: "KNIME is a free and open-source data analytics platform. It is very suitable to sort, filter, analyze and display data obtained in High Content Screens. In this project data-normalization, filtering a..."
-image: "/images/projects/2018-10-25-OscarFernandezCapetillo2018-1/5c40a7539c408.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2018-10-25-OscarFernandezCapetillo2018-1.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-10-25"

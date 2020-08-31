@@ -6,7 +6,7 @@ title: "Searching for genetic targets for nonalcoholic fatty liver disease (NAFL
 author: ["Anna Klemm"]
 external: "Casimiro Castillejo-L&otilde;pez, Claes Wadelius, Uppsala University"
 excerpt: " Obesity is rising worldwide due to an increase in total energy consumption and changes in life stiles. This pandemic growth has resulted in an increased incidence of obesity-associated nonalcoholic f..."
-image: "/images/projects/2018-12-05-CasimiroCastillejo/5c4b257d132bb.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2018-12-05-CasimiroCastillejo.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-12-05"

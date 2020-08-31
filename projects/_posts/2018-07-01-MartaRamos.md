@@ -6,7 +6,7 @@ title: "Analysis of fluorescent intensity in brain slices"
 author: ["Anna Klemm", " Petter Ranefall"]
 external: "Marta Ramos, Roberta Battistella, Iben Lundgaard, Lund University"
 excerpt: " We automatically segment brain slices in large tile scans. In the brain area we measure the fluorescent intensity of different markers using automatic thresholding. ..."
-image: "/images/projects/2018-07-01-MartaRamos/5c4b2fed0a703.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2018-07-01-MartaRamos.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-07-01"

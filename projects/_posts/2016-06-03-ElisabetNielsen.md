@@ -6,7 +6,7 @@ title: "Assessing Bacterial Growth Kinetics and Morphology Using Time-lapse Micr
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Elisabet Nielsen - Dept. of Pharm. Biosci., UU, Chenyan Zhao, Pikkei Yuen, Pernilla Lagerb&auml;ck, Margreke Brill, Thomas T&auml;ngd&etilde;n, Otto Cars - Dept. of Med. Sci., UU "
 excerpt: " In vitro methods are often  used to study the concentration-effect relationship for antimicrobial agents. Time-kill curve experiments have long been the standard methodology, with bacterial  counts f..."
-image: "/images/projects/2016-06-03-ElisabetNielsen/5878e4d2d798a.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2016-06-03-ElisabetNielsen.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2016-06-03"

@@ -6,7 +6,7 @@ title: "Applying semi-automated histology-to-radiology co-registration in en blo
 author: ["Petter Ranefall"]
 external: "Kenney Roodakker, Anja Smits, Department of Neurology, Uppsala University"
 excerpt: " Gliomas are heterogeneous tumors in terms of imaging appearances, and a deeper understanding of the histopathological tumor characteristics that underlie the signal abnormalities on PET and MRI is ne..."
-image: "/images/projects/2017-11-30-KenneyRoodakker/5a5dd7268d153.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2017-11-30-KenneyRoodakker.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Light microscopy, Model organisms and tissues"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2017-11-30"

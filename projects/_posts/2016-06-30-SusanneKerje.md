@@ -6,7 +6,7 @@ title: "Infiltration of T Cells in Thyroid Glands"
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Susanne Kerje - Dept of Medical Biochemistry and Microbiology, Uppsala University"
 excerpt: " The aim of the project is to estimate the degree of infiltration of T cells in thyroid glands of chicken in order to  better understand auto-immunity and rare genetic disease. We have developed an im..."
-image: "/images/projects/2016-06-30-SusanneKerje/5878e7ba5530e.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2016-06-30-SusanneKerje.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Light microscopy, Model organisms and tissues"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2016-06-30"

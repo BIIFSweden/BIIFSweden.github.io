@@ -6,7 +6,7 @@ title: "Effects of repeated intraportal islet transplantation on islet engraftme
 author: ["Anna Klemm"]
 external: "Hanna Liljeb&auml;ck, Per-Ola Carlsson"
 excerpt: " The outcome of islet transplantation has improved progressively. However, the lack of organ donors makes islet transplantation available only to patients with type I diabetes with the most severe gly..."
-image: "/images/projects/2018-11-29-PerOlaCarlsson2018-1/5c40a901b171c.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2018-11-29-PerOlaCarlsson2018-1.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-11-29"

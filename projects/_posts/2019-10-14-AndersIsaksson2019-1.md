@@ -6,7 +6,7 @@ title: "Feature extraction from tissue section output images"
 author: ["Petter Ranefall"]
 external: "Anders Isaksson, Padraic Corcoran, Department of Medical Sciences, UU"
 excerpt: "Sectioning of formalin fixed tissues is a convenient way of obtaining image information on cell morphology and how cells make up tissues. The sections are usually stained with hematoxylin and eosin to..."
-image: "/images/projects/2019-10-14-AndersIsaksson2019-1/5e2074cb59378.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2019-10-14-AndersIsaksson2019-1.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Light microscopy, Model organisms and tissues"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2019-10-14"

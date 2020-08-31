@@ -6,7 +6,7 @@ title: "Ubiquitin Screen"
 author: ["Carolina W&auml;hlby", " Petter Ranefall"]
 external: "Johan Bostr&ouml;m, Jordi Carreras Puigvert, Mikael Altun, Molecular Biochemistry and Biophysics, KI"
 excerpt: " Ubiquitin is a small protein that is found in almost all cellular tissues in humans and other eukaryotic  organisms, which helps to regulate the processes of other proteins in the body. Cultured cell..."
-image: "/images/projects/2015-02-01-JohanBostrom/5a5df86f7ac89.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2015-02-01-JohanBostrom.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2015-02-01"

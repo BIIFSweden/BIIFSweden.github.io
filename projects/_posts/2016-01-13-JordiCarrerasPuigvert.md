@@ -6,7 +6,7 @@ title: "Amyotrophic lateral sclerosis"
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Jordi Carreras Puigvert, Oskar Fernandez-Capetillo - Division of Translational Medicine and Chemical Biology Department of Medical Biochemistry and Biophysics Karolinska Institutet, SciLifeLab, Stockholm"
 excerpt: " Amyotrophic lateral sclerosis is a neurodegenerative disease characterized by the loss of motor neurons in the cortex brain stem and spinal chord. The incidence is 1 in 50 000  combining US and EU po..."
-image: "/images/projects/2016-01-13-JordiCarrerasPuigvert/5878e595bc783.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2016-01-13-JordiCarrerasPuigvert.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2016-01-13"

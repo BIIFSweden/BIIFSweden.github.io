@@ -6,7 +6,7 @@ title: "Imaging protein synthesis in primary cortical neuronal culture using Cli
 author: ["Petter Ranefall", " Anna Klemm"]
 external: "Rekha Tripathi, Pharmaceutical Biosciences, Uppsala University"
 excerpt: " The goal of this project is to analyze protein translation rate in mouse primary cortical neurons and astrocytes. The aim is to assess the protein synthesis by using the OPP Kit in primary cortical c..."
-image: "/images/projects/2017-12-01-RekhaTripathi/5a5e141a69ca7.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2017-12-01-RekhaTripathi.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2017-12-01"

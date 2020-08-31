@@ -6,7 +6,7 @@ title: "Vascular Networks"
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Elisabet Olin, Ross Smith, Chiara Testini, Lena Claesson-Welsh, Dept of Immunology, Genetics and Pathology, UU"
 excerpt: " In this project we analyze vascular networks in the mouse brain, retina networks and cell junction  activations. We have several applications where we skeletonize the networks and extract branch poin..."
-image: "/images/projects/2014-06-01-ElisabetOlin/5a5df48128873.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2014-06-01-ElisabetOlin.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Light microscopy, Model organisms and tissues"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2014-06-01"

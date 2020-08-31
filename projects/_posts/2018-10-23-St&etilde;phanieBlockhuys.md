@@ -6,7 +6,7 @@ title: "Probing the role of Atox1 in breast cancer cell migration"
 author: ["Anna Klemm"]
 external: "St&etilde;phanie Blockhuys, Pernilla Wittung Stafshede, Chalmers University of Technology, G&ouml;teborg"
 excerpt: " We study the role of Atox1 in breast cancer cell migration. Atox1 is a cytoplasmic Cu transporter and is overexpressed in breast cancer tissue. Previously, we observed using wound healing studies tha..."
-image: "/images/projects/2018-10-23-St&etilde;phanieBlockhuys/5c40a4b3e2626.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2018-10-23-St&etilde;phanieBlockhuys.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-10-23"

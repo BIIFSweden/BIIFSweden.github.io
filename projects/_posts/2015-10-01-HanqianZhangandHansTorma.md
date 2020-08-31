@@ -6,7 +6,7 @@ title: "Analysis of Keratin Aggregates"
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Hanqian Zhang and Hans T&ouml;rm&auml;, Dept.of Medical Sciences, Dermatology and Venereology, KI"
 excerpt: " Epidermolytic hyperkeratosis (EH) is a rare genetic skin disorder caused by mutation of keratin 1 or  10, and characterized by blistering in the epidermis and hyperkeratosis. The skin may blister eas..."
-image: "/images/projects/2015-10-01-HanqianZhangandHansTorma/588baa903c33c.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2015-10-01-HanqianZhangandHansTorma.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2015-10-01"

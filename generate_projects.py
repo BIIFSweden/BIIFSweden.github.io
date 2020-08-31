@@ -100,7 +100,7 @@ for project in jsonVal:
     path = "projects\_posts\\" + filename + ".md"
     if project["image"]:
         image_url = "http://cb.uu.se/research_images/" + project["image"]
-        localImagePath = "images\projects\\" + filename + "\\" + project["image"]
+        localImagePath = "images\projects\\" + filename + os.path.splitext(project["image"])[1]
         r = requests.get(image_url, allow_redirects=True, auth=HTTPBasicAuth(user, pwd))
         if not os.path.isdir(os.path.dirname(localImagePath)):
             os.makedirs(os.path.dirname(localImagePath))

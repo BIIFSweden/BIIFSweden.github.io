@@ -6,7 +6,7 @@ title: "Identifying novel small molecule drugs for CCM treatment"
 author: ["Anna Klemm", " Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Joppe Oldenburg, Johan Br&auml;nnstr&ouml;m, Peetra Magnusson, Elisabetta Dejana, Uppsala University"
 excerpt: " We are identifying modulators of VE-cadherin formation in images generated in a small molecule drug screen. We use CellProfiler to detect and quantify changes, and KNIME for automated classification ..."
-image: "/images/projects/2018-09-15-JoppeOldenburg/5c4b2eb3e6140.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2018-09-15-JoppeOldenburg.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-09-15"

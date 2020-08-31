@@ -6,7 +6,7 @@ title: "In vivo modeling of high grade glioma for oncology drug developments"
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Riasat Islam, Cecilia Krona and Sven Nelander. Dept. of Immunology, Genetics and Pathology, UU"
 excerpt: " The main goal of this study was to develop a platform for quantifying the  tumor-initiating capacity of a large panel of glioma-stem cell cultures (GSCs) in adult mouse brain to define the cancer ste..."
-image: "/images/projects/2016-10-07-RiasatIslam/587f15763f32a.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2016-10-07-RiasatIslam.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Light microscopy, Model organisms and tissues"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2016-10-07"

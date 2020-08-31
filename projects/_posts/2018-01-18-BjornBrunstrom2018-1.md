@@ -6,7 +6,7 @@ title: "Effects of a mixture of endocrine disrupting compounds on growth and met
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Bj&ouml;rn Brunstr&ouml;m, Anna Mattsson, Anna Mentor, Environmental toxicology, EBC, Uppsala University"
 excerpt: " The project is part of an EU project called EDC-MixRisk which aims to improve our understanding of health effects of endocrine disrupting chemicals. In EDC-MixRisk, a mixture of common chemicals have..."
-image: "/images/projects/2018-01-18-BjornBrunstrom2018-1/5c3d9e72ec0a9.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2018-01-18-BjornBrunstrom2018-1.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-01-18"

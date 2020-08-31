@@ -6,7 +6,7 @@ title: "Rat Spinal Cord"
 author: ["Carolina W&auml;hlby", " Petter Ranefall"]
 external: "Lada St&aring;lhandske, Wei Sun, Georgy Bakalkin, Dept Pharm Biosci, UU"
 excerpt: " Our collaborators newly established an way of  staining the activity in the endogenous opioid system in the rat spinal cord, and the aim of the project is to quantify the ammount and localization of ..."
-image: "/images/projects/2015-06-01-LadaStalhandske/5a5df89c2c631.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2015-06-01-LadaStalhandske.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Light microscopy, Model organisms and tissues"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2015-06-01"

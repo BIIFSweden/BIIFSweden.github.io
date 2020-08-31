@@ -6,7 +6,7 @@ title: "Kidney Morphology and Topology of the Glomerular Filtration Barrier"
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "David Unnersj&ouml; Jess, Hans Gunnar Blom - Dept of Applied Physics, KTH"
 excerpt: " Our collaborators have developed a super-resolution immunofluorescence microscopy protocol for the study of  the filtration barrier in the kidney. The aim of the project is to quantitatively evaluate..."
-image: "/images/projects/2015-10-08-DavidUnnersjoJess/5878e6656846b.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2015-10-08-DavidUnnersjoJess.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Light microscopy, Model organisms and tissues"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2015-10-08"

@@ -6,7 +6,7 @@ title: "Linking cell cycle with protein expression"
 author: ["Anna Klemm", " Carolina W&auml;hlby"]
 external: "Caroline Gallant, Dept. of Immunology, Genetics and Pathology, Uppsala University"
 excerpt: "Pilot studies to characterize protein expression changes in human embryonic stem cells during the different cell cycle stages is led by Gallant group. They observed highly differential regulation of c..."
-image: "/images/projects/2018-08-27-CarolineGallant/5c40ad045cf33.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2018-08-27-CarolineGallant.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-08-27"

@@ -6,7 +6,7 @@ title: "Development of a fat phantom"
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Hana Dobsicek Trefna, Tiina Nydel&ouml;, Dept. of Electrical Engineering, Chalmers University of Technology"
 excerpt: " Phantoms that closely mimic the dielectric properties of human tissues play an important role in testing and evaluating devices and various treatment and diagnostic schemes. A phantom is a physical m..."
-image: "/images/projects/2018-08-13-HanaDobsicekTrefna/5c3da40624c6f.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2018-08-13-HanaDobsicekTrefna.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2018-08-13"

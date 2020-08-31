@@ -6,7 +6,7 @@ title: "Human induced pluripotent cells derived neuroepithelial-like cells diffe
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Andreas Kaiser, Ekaterina Novozhilova, Petri Olivius, Department of Surgical Sciences, Uppsala University"
 excerpt: " Stem cell therapy has been proposed as an option to treat sensorineural hearing loss since auditory system as well as the most of the central nervous system has a limited regenerative potential. The ..."
-image: "/images/projects/2017-01-20-AndreasKaiser/5a71cf0530d66.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2017-01-20-AndreasKaiser.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2017-01-20"

@@ -6,7 +6,7 @@ title: "Cell Time-Lapse Analysis"
 author: ["Petter Ranefall", " Carolina W&auml;hlby", " Sajith Kecheril Sadanandan"]
 external: "Grigorios Kyriatzis, Jennifer Feenstra, Theresa Vincent, Physiology and Pharmacology, KI"
 excerpt: " he aim of the project is to interpret differences in migration-proliferation of cells with different  treatments and express those in a quantitative manner. We used a 'scratch assay' approach, or 'wo..."
-image: "/images/projects/2014-10-01-GrigoriosKyriatzis/5a5df4642a95e.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2014-10-01-GrigoriosKyriatzis.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2014-10-01"

@@ -6,7 +6,7 @@ title: "Cell Distribution and Protein Expression in the Ectocervix"
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Anna Gibbs, Gabriella Edfeldt, Maria R&ouml;hl, Annelie Tjernlund - Dept. of Medicine, KI"
 excerpt: " The female genital mucosa presents a comprehensive natural immune defense against HIV infection, although during exposure to a high dose of virus this is not enough  to protect the individual against..."
-image: "/images/projects/2015-04-01-AnnaGibbs/5878e879efadb.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2015-04-01-AnnaGibbs.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Light microscopy, Model organisms and tissues"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2015-04-01"

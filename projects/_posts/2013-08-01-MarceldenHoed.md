@@ -6,7 +6,7 @@ title: "Quantification of Zebrafish Lipid Droplets"
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Marcel den Hoed, Manoj Bandaru, Benedikt von der Heyde, Anastasia Emmanouilidou - Dept. of Medical Sciences and SciLifeLab, UU"
 excerpt: " The aim of this project is to identify novel targets for the therapeutic intervention of coronary  artery disease. This is done by following-up results from genome-wide association studies in epidemi..."
-image: "/images/projects/2013-08-01-MarceldenHoed/5c4f1fb8c3873.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2013-08-01-MarceldenHoed.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Light microscopy, Model organisms and tissues"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2013-08-01"

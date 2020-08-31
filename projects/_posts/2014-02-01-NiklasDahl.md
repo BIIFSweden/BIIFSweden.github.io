@@ -6,7 +6,7 @@ title: "Segmentation of Neurons"
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Niklas Dahl, Loora Laan, Jens Schuster - Dept of Immunology, Genetics and Pathology, UU"
 excerpt: " The goal of this project is to analyze neurons grown from stem cells in vitro. The aim is to assess the percentage of neurons  (using B-tubulin) and certain neuron subtypes (GABA) by immunofluorescen..."
-image: "/images/projects/2014-02-01-NiklasDahl/5878eba972f57.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2014-02-01-NiklasDahl.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2014-02-01"

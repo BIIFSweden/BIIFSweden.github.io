@@ -6,7 +6,7 @@ title: "Effects of mixtures of endocrine disrupting compounds (EDC) on Wnt/beta-
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Maria J&ouml;nsson - Dept of Organismal Biology, Environmental Toxicology, Uppsala University."
 excerpt: " Wnt/beta-catenin signaling  is involved in proliferation and fate of cells thus playing fundamental roles during embryo development. The specific aims of this part of the EU project are to 1)  develo..."
-image: "/images/projects/2016-09-02-MariaJonsson/5878e44b0bcf6.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
+image: "/images/projects/2016-09-02-MariaJonsson.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Light microscopy, Model organisms and tissues"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2016-09-02"
