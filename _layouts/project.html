@@ -10,7 +10,7 @@ layout: page
         {% endif %}
         {{ content }}
         <br/>
-        {% if page.tags_ != "None" %}
+        {% if page.tags_ && page.tags_ != "None" %}
             <strong>Tags:</strong> {{ page.tags_ }}
         {% endif %}
     </div>
