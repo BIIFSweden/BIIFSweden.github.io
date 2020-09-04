@@ -134,7 +134,19 @@ include_masonry: "true"
       function(elemID) {
         val = document.getElementById(elemID).value;
         if (val) {
-          text += elemID + ": " + "\"" + val + "\"\n";
+          if (elemID == "author") {
+            valArray = val.split(',')
+            valArray = valArray.map(
+              function (val) {
+                return "\"" + val.trim() + "\"";
+              }
+            );
+            val = "[" + valArray.join(", ") + "]";
+          }
+          else {
+            val = "\"" + val + "\"";
+          }
+          text += elemID + ": " + val + "\n";
         }
         else {
           text += "# " + elemID + ": " + "\"" + val + "\"\n";
