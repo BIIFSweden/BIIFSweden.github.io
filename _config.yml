@@ -5,16 +5,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - repo-metadata.html
-  - publish.rb
-  - vendor
-  - cibuild.sh
-  - .travis.yml
   - maintainer-notes.md
-
-plugins:
-  - jekyll-mentions
-  - jekyll-sitemap
-  - jekyll-redirect-from
 
 defaults:
   -
@@ -30,6 +21,12 @@ defaults:
     values:
       layout: "project"
       excerpt_separator: <!--more-->    
+  -
+    scope:
+      path: "add_project"
+      type: "pages"
+    values:
+      layout: "page"
 kramdown:
   toc_levels: "2,3"
   input: GFM

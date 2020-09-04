@@ -1,0 +1,158 @@
+---
+title: BioImage Informatics Facility - Project creation helper
+excerpt: "This is where we keep a collection of ongoing and finished projects that the BioImage Informatics Facility supported."
+include_masonry: "true"
+---
+
+<div class="container">
+    <form id="my-form">
+        <div class="form-group">
+          <label for="projectID">Internal Project ID</label>
+          <input type="input" class="form-control" id="projectID" placeholder="FirstNameLastNameYYYY-i" required>
+        </div>
+        <div class="form-group">
+          <label for="title">Project Title</label>
+          <input type="input" class="form-control" id="title" placeholder="Enter title" required>
+        </div>
+        <div class="form-group">
+          <label for="author">BIIF Principal Investigators (separated by commas)</label>
+          <input type="input" class="form-control" id="author" placeholder="First Name Last Name, First Name Last Name" required>
+        </div>
+        <div class="form-group">
+          <label for="external">External Authors</label>
+          <input type="input" class="form-control" id="external" placeholder="Enter external authors" required>
+        </div>
+        <div class="form-group">
+          <label for="description">Long description</label>
+          <textarea type="input" class="form-control" id="description" placeholder="Enter description" rows="10" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="excerpt">Short description (35 words max, keep blank to use beginning of long description)</label>
+          <input type="input" class="form-control" id="excerpt" placeholder="Enter short description">
+        </div>
+        <div class="form-group">
+          <label for="keywords">Project Keywords</label>
+          <input type="input" class="form-control" id="keywords" placeholder="Enter keywords">
+        </div>
+        <div class="form-group">
+          <label for="funding">Project Funding</label>
+          <input type="input" class="form-control" id="funding" placeholder="SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)" value="SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)">
+        </div>
+        <div class="form-group">
+          <label for="initdate">Project Starting date (format YYYY-MM-DD)</label>
+          <input type="input" class="form-control" id="initdate" placeholder="YYYY-MM-DD" required>
+        </div>
+        <div class="form-group">
+          <label for="lastdate">Project Ending date (format YYYY-MM-DD or "Current")</label>
+          <input type="input" class="form-control" id="lastdate" placeholder="Enter date" value="Current" required>
+        </div>
+        <div class="form-group">
+          <label for="tags_">Project Tags</label>
+          <input type="input" class="form-control" id="tags_" placeholder="Enter tags">
+        </div>
+        <div class="form-group">
+          <label for="image">Upload image</label>
+          <input type="file" class="form-control" id="image">
+        </div>
+        <button type="submit" class="btn btn-primary">Generate files to push to Github</button>
+      </form>
+      <br/>
+      <div id="downloadLinks" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" style="display: contents;">Download and upload to Github</h3>
+              <button id="closeModal" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <a class="btn btn-lg btn-primary" id="projectTextDL" href="#"></a><br/>Upload file to <a href="https://github.com/BIIFSweden/BIIFSweden.github.io/tree/gh-pages/projects/_posts" target="_blank">BIIFSweden.github.io/tree/gh-pages/projects/_posts</a>.<br/><br/>
+                <a class="btn btn-lg btn-primary" id="projectImageDL" href="#"></a><br/>Upload file to <a href="https://github.com/BIIFSweden/BIIFSweden.github.io/tree/gh-pages/images/projects" target="_blank">BIIFSweden.github.io/tree/gh-pages/images/projects</a>.      
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<script>
+  var btnClose = document.getElementById('closeModal');
+  btnClose.addEventListener('click', (e) => {
+    var locModal = document.getElementById('downloadLinks');
+    locModal.style.display = "none";
+  });
+  function download(filename, text) {
+    var element = document.getElementById('projectTextDL');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', filename);
+    element.innerHTML='<span class="glyphicon glyphicon-download-alt"></span>Download ' + filename;
+  }
+
+  function getImageFile(projectFilename) {
+    var image = document.getElementById('image');
+    var originalFile = image.files[0];
+    var extension = originalFile.name.split('.').pop();
+    var filename = projectFilename + "." + extension
+
+    fr = new FileReader();
+    fr.readAsDataURL(originalFile);
+    var blob = new Blob([originalFile], { type: originalFile.type });
+    var objectURL = window.URL.createObjectURL(blob);
+    console.log(objectURL);
+
+    console.log(originalFile);
+    var element = document.getElementById('projectImageDL');
+    element.setAttribute('href', objectURL);
+    element.setAttribute('download', filename);
+    element.innerHTML='<span class="glyphicon glyphicon-download-alt"></span>Download ' + filename;
+    return filename
+  }
+
+  document.getElementById('my-form').addEventListener("submit",function(e) {
+    e.preventDefault(); // before the code
+    /* do what you want with the form */
+    projectID = document.getElementById("projectID").value;
+    projectFilename = document.getElementById("initdate").value + "-" + projectID
+    var numbers = [
+      "title",
+      "author",
+      "external",
+      "excerpt",
+      "keywords",
+      "funding",
+      "initdate",
+      "lastdate",
+      "tags_"
+    ];
+    var text = `---
+# Fill out as many of these as you can, and delete the rest.
+# Text on a line after a "#" is a comment and is ignored for the published page.
+
+`;
+    numbers.forEach(
+      function(elemID) {
+        val = document.getElementById(elemID).value;
+        if (val) {
+          text += elemID + ": " + "\"" + val + "\"\n";
+        }
+        else {
+          text += "# " + elemID + ": " + "\"" + val + "\"\n";
+        }
+      }
+    );
+    imageFilename = getImageFile(projectFilename);
+    text += "image: " + "\"/images/projects/" + imageFilename + "\"\n";
+    text += `
+
+---
+
+## Project Description
+`;
+    text += document.getElementById("description").value;
+    download(projectFilename + ".md", text)
+    document.getElementById("downloadLinks").style.display = 'block';
+  });
+
+
+</script>
