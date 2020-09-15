@@ -5,7 +5,7 @@
 title: "Intracellular trafficking pathways of PDGFRb"
 author: ["Petter Ranefall", " Carolina W&auml;hlby"]
 external: "Natalia Papadopoulos, Carl-Henrik Heldin, Department of Medical Biochemistry and Microbiology, Uppsala Universiyty"
-excerpt: " This project investigates trafficking pathways of PDGFR? from the cell surface upon activation with PDGF-BB ligand. PDGFR? is known to form dot-like clusters upon activation that only partially co-lo..."
+excerpt: " This project investigates trafficking pathways of PDGFRb from the cell surface upon activation with PDGF-BB ligand. PDGFRb is known to form dot-like clusters upon activation that only partially co-lo..."
 image: "/images/projects/2017-12-04-NataliaPapadopoulos.png" # Image should be pushed to /images/projects/YYYY-MM-DD-projectid/ before
 keywords: "Cell biology, Light microscopy"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
@@ -16,4 +16,4 @@ tags_: "Microscopy, cell biology"
 ---
 
 ## Project Description
- This project investigates trafficking pathways of PDGFR? from the cell surface upon activation with PDGF-BB ligand. PDGFR? is known to form dot-like clusters upon activation that only partially co-localize with the known markers of intracellular organelles. This project is designed to identify novel markers and trafficking pathways of PGDFR?. In order to distinguish between the PDGFR? localized at the cell surface and the intracellular pools, the cell surfice PDGFR? is labelled with biotin. Thus, confocal microscopy with triple staining is used to estimate the co-localization of signals between the three types of molecules: biotin, PDGFR? and organelle marker. The pipeline is used to analyze the images and estimate the presence of biotinylated PDGFR? within a given organelle. 
+ This project investigates trafficking pathways of PDGFRb from the cell surface upon activation with PDGF-BB ligand. PDGFRb is known to form dot-like clusters upon activation that only partially co-localize with the known markers of intracellular organelles. This project is designed to identify novel markers and trafficking pathways of PGDFRb. In order to distinguish between the PDGFRb localized at the cell surface and the intracellular pools, the cell surfice PDGFRb is labelled with biotin. Thus, confocal microscopy with triple staining is used to estimate the co-localization of signals between the three types of molecules: biotin, PDGFRb and organelle marker. The pipeline is used to analyze the images and estimate the presence of biotinylated PDGFRb within a given organelle. 
