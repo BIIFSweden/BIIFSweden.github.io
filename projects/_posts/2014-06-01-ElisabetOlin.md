@@ -16,4 +16,4 @@ tags_: "Microscopy, cell biology"
 ---
 
 ## Project Description
- In this project we analyze vascular networks in the mouse brain, retina networks and cell junction <br/><br/>activations. We have several applications where we skeletonize the networks and extract branch points in the skeleton. For the cell junction activations we have <br/><br/>initially used an approach where we compute the area of the activated junctions (green) between the cells and use that as a measurement of <br/><br/>activation. 
+ In this project we analyze vascular networks in the mouse brain, retina networks and cell junction activations. We have several applications where we skeletonize the networks and extract branch points in the skeleton. For the cell junction activations we have initially used an approach where we compute the area of the activated junctions (green) between the cells and use that as a measurement of activation. 

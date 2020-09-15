@@ -16,4 +16,4 @@ tags_: "Microscopy, model organisms and tissues"
 ---
 
 ## Project Description
- The aim of the project is to estimate the degree of infiltration of T cells in thyroid glands of chicken in order to <br/><br/>better understand auto-immunity and rare genetic disease. We have developed an image analysis pipeline, using ilastik, CellProfiler, and some Python scripts, that <br/><br/>extracts the regions of interest from the full glass slide images and classifies the tissue into infiltration or normal. The whole dataset contained 558 slides and <br/><br/>the analysis was run on a powerful local server at the BMC. 
+ The aim of the project is to estimate the degree of infiltration of T cells in thyroid glands of chicken in order to better understand auto-immunity and rare genetic disease. We have developed an image analysis pipeline, using ilastik, CellProfiler, and some Python scripts, that extracts the regions of interest from the full glass slide images and classifies the tissue into infiltration or normal. The whole dataset contained 558 slides and the analysis was run on a powerful local server at the BMC. 

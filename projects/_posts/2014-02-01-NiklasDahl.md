@@ -16,4 +16,4 @@ tags_: "Microscopy, cell biology"
 ---
 
 ## Project Description
- The goal of this project is to analyze neurons grown from stem cells in vitro. The aim is to assess the percentage of neurons <br/><br/>(using B-tubulin) and certain neuron subtypes (GABA) by immunofluorescence. We used CellProfiler to segment the cells and CellProfiler Analyst to classify positive <br/><br/>cells. 
+ The goal of this project is to analyze neurons grown from stem cells in vitro. The aim is to assess the percentage of neurons (using B-tubulin) and certain neuron subtypes (GABA) by immunofluorescence. We used CellProfiler to segment the cells and CellProfiler Analyst to classify positive cells. 

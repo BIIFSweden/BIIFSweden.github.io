@@ -18,6 +18,8 @@ tags_: "None"
 ## Project Description
 For the last decades a concern has been raised that female fertility is declining – more than could be explained by the fact that we choose to have children later in life and possible genetic effects. Subfertility – and infertility – is a devastating experience for those who are affected and as the subject is also somewhat of a taboo – the numbers affected are most likely higher than perceived among the general public. 
 In our environment, we are continuously exposed to a number of exogenous chemicals, originating from industries, agriculture and other. As many of these chemicals show persistence and are very bio-accumulative, they will concentrate higher up in the food-chain, in both wildlife and humans. Many of the chemicals are new – and have yet not been investigated regarding their full toxicological potential.
-Perfluorononanoic acid (PFNA)  
+
+### Perfluorononanoic acid (PFNA)  
+
 This project  aim to further investigate perfluorononanoic acid (PFNA) and its effect on the early embryo development. This chemical is closely related to know toxic substances such as PFOS and PFOA, but is in contrary to those – little research has yet been done regarding PFNAs potential toxicological effects.
 We have used a bovine model, where we collect material from the slaughter-house that are normally disposed. We have exposed egg-cells to PFNA and followed the egg cells in the lab as they develop into very early embryos. The embryos are then investigated regarding morphology and with different staining helping us identifying differences in for example fat-metabolism of exposed embryos. 

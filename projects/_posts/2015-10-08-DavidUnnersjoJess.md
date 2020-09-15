@@ -16,4 +16,4 @@ tags_: "Microscopy, model organisms and tissues"
 ---
 
 ## Project Description
- Our collaborators have developed a super-resolution immunofluorescence microscopy protocol for the study of <br/><br/>the filtration barrier in the kidney. The aim of the project is to quantitatively evaluate the morphology and topology of the glomerular filtration barrier in the <br/><br/>kidney. 
+ Our collaborators have developed a super-resolution immunofluorescence microscopy protocol for the study of the filtration barrier in the kidney. The aim of the project is to quantitatively evaluate the morphology and topology of the glomerular filtration barrier in the kidney. 

@@ -16,4 +16,4 @@ tags_: "Microscopy, cell biology"
 ---
 
 ## Project Description
- Ubiquitin is a small protein that is found in almost all cellular tissues in humans and other eukaryotic <br/><br/>organisms, which helps to regulate the processes of other proteins in the body. Cultured cells respond to treatments such as silencing of genes or exposure to <br/><br/>radiation and/or drugs by changing their morphology, giving us hints on mechanisms of action. We develop methods for image-based high-throughput screening to <br/><br/>identify subtle changes in individual cells, not accessible by bulk-methods, here focusing on the ubiquitin pathway. 
+ Ubiquitin is a small protein that is found in almost all cellular tissues in humans and other eukaryotic organisms, which helps to regulate the processes of other proteins in the body. Cultured cells respond to treatments such as silencing of genes or exposure to radiation and/or drugs by changing their morphology, giving us hints on mechanisms of action. We develop methods for image-based high-throughput screening to identify subtle changes in individual cells, not accessible by bulk-methods, here focusing on the ubiquitin pathway. 
