@@ -1,0 +1,189 @@
+---
+title: BioImage Informatics Facility - Newsletter creation helper
+excerpt: "This is where we keep a collection of ongoing and finished projects that the BioImage Informatics Facility supported."
+include_simplemde: "true"
+---
+<style>
+.CodeMirror-fullscreen {
+  top: 113px !important;
+}
+.editor-preview-side {
+  top: 113px !important;
+}
+.editor-toolbar.fullscreen {
+   top: 64px !important;
+}
+.CodeMirror {
+  height: 500px;
+}
+</style>
+<div class="container">
+    <form id="my-form">
+        <div class="form-group">
+          <label for="title">Newsletter Title</label>
+          <input type="input" class="form-control" id="title" placeholder="Enter title" value="BIIF Newsletter, " required>
+        </div>
+        <div class="form-group">
+          <label for="initdate">Newsletter date (format YYYY-MM-DD)</label>
+          <input type="input" class="form-control" id="initdate" placeholder="YYYY-MM-DD" required>
+        </div>
+        <div class="form-group">
+          <label for="description">Newsletter body</label>
+          <textarea type="input" class="form-control" id="description" placeholder="Enter description" rows="10" required>Dear All,
+
+We hope you all had a good start into 2021! Here are news and upcoming events of BIIF.
+
+For us the new year started with "moving in" to the SciLifeLab Bioinformatics Platform and with this we are in even closer interaction with [NBIS](https://www.nbis.se/). We are looking forward to this, but also to continued stimulating discussions with the SLL Bioimaging and Molecular Structure Platform!
+  
+### Support
+You can always contact us via [biif@scilifelab.se](mailto:biif@scilifelab.se) for support on image analysis.
+
+Additionally, we offer **Call4Help sessions**. Here we team up with Sylvie Le Guyader, LCI, Karolinska Institutet, to give combined **advice on both microscopy and image analysis**. 
+The next Call4Help session is on February 2, 2021 – find more information [online](https://www.scilifelab.se/event/bioimage-informatics-call4help-9).
+
+Also, do check out our [project database](https://biifsweden.github.io/) to get inspiration and examples of image analysis projects.
+
+### Upcoming Seminars
+We will give a presentation within the **10th STorM Program Brown Bag Webinar**, January 26, at 12.00.
+
+**Image and data analysis in spatially resolved molecular profiling:**
+
+  - Part 1: Ongoing research in the Wählby lab (Carolina Wählby, IT Dept, UU)
+
+  - Part 2: BioImage Informatics Facility services (Anna Klemm, SciLifeLab BioImage Informatics Facility)
+
+**NEUBIAS Academy** has organized an exciting **Big Data series**. The upcoming seminars are the following:
+
+  - Image Big Data II: Registration & Stitching of TB datasets
+    19 January (Tuesday), 2021, 15h30-17h00 CET
+
+  - Image Big Data III: Frameworks for the quantitative analysis of large images
+    26 January (Tuesday), 2021, 15h30-17h00 CET
+
+  - Image Big Data IV: Visualization, Sharing and Annotation “in the Cloud” (TBC)
+    3 February (Wednesday), 2021, 15h30-17h00 CET
+
+  - Image Big Data V: REALLY Big Data (TBC)
+    9 February (Tuesday), 2021, 15h30-17h00 CET
+
+Find more information on the [NEUBIAS Academy webinars online](http://eubias.org/NEUBIAS/training-schools/neubias-academy-home/).
+  
+Best regards,
+Anna
+
+If you don’t want to receive our newsletter anymore, please let me know.</textarea>
+        </div>
+        <div class="form-group">
+          <label for="image">Upload image</label>
+          <input type="file" class="form-control" id="image">
+        </div>
+        <button type="submit" class="btn btn-primary">Generate files to push to Github</button>
+      </form>
+      <br/>
+      <div id="downloadLinks" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" style="display: contents;">Download and upload to Github</h3>
+              <button id="closeModal" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <a class="btn btn-lg btn-primary" id="newsletterTextDL" href="#"></a><br/>Upload file to <a href="https://github.com/BIIFSweden/BIIFSweden.github.io/tree/gh-pages/newsletters/_posts" target="_blank">BIIFSweden.github.io/tree/gh-pages/newsletters/_posts</a>.<br/><br/>
+                <!--<a class="btn btn-lg btn-primary" id="newsletterImageDL" href="#"></a><br/>Upload file to <a href="https://github.com/BIIFSweden/BIIFSweden.github.io/tree/gh-pages/images/newsletters" target="_blank">BIIFSweden.github.io/tree/gh-pages/images/newsletters</a>.-->
+                The newsletter will be available at <a id="newsletterURL" href="#" target="_blank"></a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<script>
+
+  var simplemde = new SimpleMDE(
+    { 
+      element: document.getElementById("description"),
+      promptURLs: true,
+      forceSync: true,
+
+    }
+  );
+  /*Get date for title:*/
+  const formatter = new Intl.DateTimeFormat('en', { month: 'long' });
+  const month1 = formatter.format(new Date());
+  const year1 = new Date().getFullYear();
+  const fulldate1 = new Date().toISOString().slice(0, 10);
+  document.getElementById("title").value = "BIIF Newsletter, " + month1 + " " + year1;
+  document.getElementById("initdate").value = fulldate1;
+
+  var btnClose = document.getElementById('closeModal');
+  btnClose.addEventListener('click', (e) => {
+    var locModal = document.getElementById('downloadLinks');
+    locModal.style.display = "none";
+  });
+  function download(filename, text) {
+    var element = document.getElementById('newsletterTextDL');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', filename);
+    element.innerHTML='<span class="glyphicon glyphicon-download-alt"></span>Download ' + filename;
+  }
+
+  function getImageFile(newsletterFilename) {
+    var image = document.getElementById('image');
+    var originalFile = image.files[0];
+    var extension = originalFile.name.split('.').pop();
+    var filename = newsletterFilename + "." + extension
+
+    fr = new FileReader();
+    fr.readAsDataURL(originalFile);
+    var blob = new Blob([originalFile], { type: originalFile.type });
+    var objectURL = window.URL.createObjectURL(blob);
+    console.log(objectURL);
+
+    console.log(originalFile);
+    var element = document.getElementById('newsletterImageDL');
+    element.setAttribute('href', objectURL);
+    element.setAttribute('download', filename);
+    element.innerHTML='<span class="glyphicon glyphicon-download-alt"></span>Download ' + filename;
+    return filename
+  }
+
+  document.getElementById('my-form').addEventListener("submit",function(e) {
+    e.preventDefault(); // before the code
+    /* do what you want with the form */
+    newsletterFilename = document.getElementById("initdate").value + "-nl"
+    newsletterURL = "https://biifsweden.github.io/newsletters/" + document.getElementById("initdate").value.replace(/-/g, "/") + "/nl"
+    var numbers = [
+      "title"
+    ];
+    var text = ``;
+    numbers.forEach(
+      function(elemID) {
+        val = document.getElementById(elemID).value;
+        if (val) {
+          val = "\"" + val + "\"";
+          text += elemID + ": " + val + "\n";
+        }
+        else {
+          text += "# " + elemID + ": " + "\"" + val + "\"\n";
+        }
+      }
+    );
+    //imageFilename = getImageFile(newsletterFilename);
+    //text += "image: " + "\"/images/newsletters/" + imageFilename + "\"\n";
+    text += `
+
+---
+`;
+    text += document.getElementById("description").value;
+    download(newsletterFilename + ".md", text)
+    document.getElementById('newsletterURL').innerHTML=newsletterURL;
+    document.getElementById('newsletterURL').href=newsletterURL;
+    document.getElementById("downloadLinks").style.display = 'block';
+    newsletterURL
+  });
+
+
+</script>

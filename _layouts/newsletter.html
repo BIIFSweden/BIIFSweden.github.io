@@ -1,0 +1,27 @@
+---
+title: BIIF Newsletter
+layout: page
+---
+<div class="row">
+    <div class="col-lg-12">
+        {{ content }}
+    </div>
+</div>
+
+<hr/>
+<div class="container">
+        <h2>Newsletter history</h2>
+    <ul>
+    {% for post in site.posts %}
+        {% if post.categories contains "newsletters" %}
+            <li>
+                            <h4>
+                                <a href="{{ post.url }}">
+                                    {{ post.date | date: "%B %Y" }}
+                                </a>
+                            </h4>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+</div>

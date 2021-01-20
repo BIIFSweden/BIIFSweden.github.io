@@ -23,7 +23,20 @@ defaults:
       excerpt_separator: <!--more-->    
   -
     scope:
+      path: "newsletters"
+      type: "posts"
+    values:
+      layout: "newsletter"
+      excerpt_separator: <!--more-->    
+  -
+    scope:
       path: "add_project"
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "add_newsletter"
       type: "pages"
     values:
       layout: "page"

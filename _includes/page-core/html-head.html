@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="/stylesheets/site-structure.css">
     <link rel="stylesheet" href="/stylesheets/landing-content.css">
 
+    {% if page.include_simplemde %}
+        <link rel="stylesheet" href="/stylesheets/simplemde.min.css">
+        <script src="/javascripts/simplemde.min.js"></script>
+    {% endif %}
+
     <!-- Template for search results -->
     <script type="text/html" id="search-result-template">
         <div class="search-result">
