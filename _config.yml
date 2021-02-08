@@ -6,11 +6,18 @@ exclude:
   - Gemfile.lock
   - repo-metadata.html
   - maintainer-notes.md
+  - generate_projects.py
 
 defaults:
   -
     scope:
       path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "newsletter"
       type: "pages"
     values:
       layout: "page"
