@@ -7,7 +7,11 @@ exclude:
   - repo-metadata.html
   - maintainer-notes.md
   - generate_projects.py
-
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-paginate
+paginate: 12
+paginate_path: "/page:num"
 defaults:
   -
     scope:
