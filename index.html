@@ -2,6 +2,7 @@
 title: BioImage Informatics Facility Projects
 excerpt: "This is where we keep a collection of ongoing and finished projects that the BioImage Informatics Facility supported."
 include_masonry: "true"
+tipue_search_active: true
 ---
 <div class="container">
     <div id="main-lead-content" class="col-lg-8">
@@ -17,6 +18,20 @@ include_masonry: "true"
             You can find here a collection of ongoing and completed projects supported by the 
             BioImage Informatics Facility.
         </p>
+        <form action="{{ page.url | relative_url }}">
+            <div class="tipue_search_left"><img src="{{ "/assets/tipuesearch/search.png" | relative_url }}" class="tipue_search_icon"></div>
+            <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" placeholder="Search in our project database" title="At least 3 characters" required></div>
+            <div style="clear: both;"></div>
+        </form>
+        
+        <div id="tipue_search_content"></div>
+        
+        <script>
+        $(document).ready(function() {
+            $('#tipue_search_input').tipuesearch();
+        });
+        </script>
+    
     </div>
     <div class="col-lg-4">
         <img class="img-responsive" src="/images/CarolinaPetterKevin.png"/>
@@ -71,8 +86,7 @@ include_masonry: "true"
     </div>
 </div>
 
-  
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>    
+   
 <script src="/javascripts/jquery.jscroll.min.js"></script>
 
 <script>
