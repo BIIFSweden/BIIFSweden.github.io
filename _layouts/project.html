@@ -38,6 +38,11 @@ layout: page
                     <h4>Date</h4>
                     {{ page.initdate }} 🠚 {{ page.lastdate }}
                 </li>
+                {% if page.github %}
+                <li class="list-group-item">
+                    <a target="_blank" class="btn btn-primary btn-block" href="{{ page.github }}">GitHub page</a>
+                </li>
+                {% endif %}
             </ul>
         </div>
     </div>

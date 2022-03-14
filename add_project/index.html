@@ -124,7 +124,8 @@ include_masonry: "true"
       "funding",
       "initdate",
       "lastdate",
-      "tags_"
+      "tags_",
+      "github"
     ];
     var text = `---
 # Fill out as many of these as you can, and delete the rest.
@@ -150,7 +151,7 @@ include_masonry: "true"
           text += elemID + ": " + val + "\n";
         }
         else {
-          text += "# " + elemID + ": " + "\"" + val + "\"\n";
+          text += "# " + elemID + ": " + "\"\"\n";
         }
       }
     );
