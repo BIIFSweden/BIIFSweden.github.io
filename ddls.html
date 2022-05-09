@@ -1,0 +1,193 @@
+---
+excerpt: "This is where we keep a collection of ongoing and finished projects that the BioImage Informatics Facility supported."
+include_masonry: "true"
+tipue_search_active: true
+---
+<style>
+    .navbar {display:none;}
+    .container {width:100%;margin:0px;padding:0px;height: 100%;}
+    body, html {height:100%;margin:0px;padding:0px;overflow:hidden;}
+
+    .modal-fader {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 99998;
+    background: rgba(0,0,0,0.8);
+}
+.modal-fader.active {
+    display: block;
+}
+.modal-window {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99999;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    top: 50px;
+}
+.modal-window.active {
+    display: block;
+}
+.modal-window h1,
+.modal-window h2,
+.modal-window h3,
+.modal-window h4,
+.modal-window h5,
+.modal-window h6 {
+    margin: 0;
+}
+.modal-btn {
+    background: #36a5a5;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+div#modal {
+    width: 70%;
+    height: 90%;
+}
+</style>
+
+<div id="modal" class="modal-window">
+    <iframe id="mainIframe" src="" style="width:100%;height:95%;"></iframe><br/>
+    <button class="modal-btn modal-hide">Close</button>
+</div>
+<div class="modal-fader"></div>
+
+<div style="display: inline-block;width: 50%;height: 100%;overflow-y: scroll;">
+<img src="/assets/ddls.png"/ style="width:100%;">
+</div>
+
+
+
+<div style="display: inline-block;width: 50%;height: 100%;overflow-y: scroll;position: absolute; zoom: 0.8;padding: 16px;">
+
+    <div class="row" id="project-thumbnail-grid">
+        <div class="content">
+            {% for post in site.posts %}
+                {% if post.categories contains "projects" %}
+                    {% unless post.id == '/projects/2014/03/21/Example-Project' %}
+                        {% assign num_words = 70 %}
+                        {% assign num_words_t = 13 %}
+                        <div class="col-xs-12 col-sm-6 col-md-4 project-thumbnail-container" style="min-height:500px;">
+                            <div class="thumbnail">
+                                <div class="project_view" style="height:416px;">
+                                    {% if post.image %}
+                                        {% assign num_words = 35 %}
+                                        <a href="{{ post.url }}">
+                                            <img src="{{post.image}}" alt="{{ post.title }}" style="max-height: 225px; min-height: 100px;" />
+                                        </a>
+                                    {% endif %}
+                                    <div class="caption">
+                                        <h4>{{ post.title | truncatewords: num_words_t }}</h4>
+                                        <p>{{ post.excerpt | strip_html | truncatewords: num_words }}</p>
+                                    </div>
+                                </div>
+                                <div class="caption">
+                                    <p><a class="btn btn-primary" href="{{ post.url }}">Learn more</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    {% endunless %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <script src="/javascripts/jquery.jscroll.min.js"></script>
+
+    <script>
+    $('.content').jscroll({
+        debug: true,
+        contentSelector: ".content",
+        nextSelector: '.next'
+    });
+    </script>
+</div>
+
+
+<script>
+    function interceptClickEvent(e) {
+        var href;
+        var target = e.target || e.srcElement;
+        console.log(target, target.parentNode , target.tagName, target.parentNode.tagName)
+        if (target.parentNode.tagName === 'A') {
+            target = target.parentNode ;
+        }
+        if (target.tagName === 'A') {
+            href = target.getAttribute('href');
+
+            //put your logic here...
+            if (true) {
+                showModalWindow (href)
+                //tell the browser not to respond to the link click
+                e.preventDefault();
+            }
+        }
+    }
+
+
+    //listen for link click events at the document level
+    if (document.addEventListener) {
+        document.addEventListener('click', interceptClickEvent);
+    } else if (document.attachEvent) {
+        document.attachEvent('onclick', interceptClickEvent);
+    }
+
+    (function () {
+        document.querySelectorAll(".open-modal").forEach(function (trigger) {
+            trigger.addEventListener("click", function () {
+                hideAllModalWindows();
+                showModalWindow(this);
+            });
+        });
+        
+        document.querySelectorAll(".modal-hide").forEach(function (closeBtn) {
+            closeBtn.addEventListener("click", function () {
+                hideAllModalWindows();
+            });
+        });
+        
+        document.querySelector(".modal-fader").addEventListener("click", function () {
+            hideAllModalWindows();
+        });
+    })();
+    function showModalWindow (href) {
+        var modalTarget = "#modal";
+        document.querySelector("#mainIframe").src = href;
+    }
+    function hideAllModalWindows () {
+        var modalFader = document.querySelector(".modal-fader");
+        var modalWindows = document.querySelectorAll(".modal-window");
+        
+        if(modalFader.className.indexOf("active") !== -1) {
+            modalFader.className = modalFader.className.replace("active", "");
+        }
+        
+        modalWindows.forEach(function (modalWindow) {
+            if(modalWindow.className.indexOf("active") !== -1) {
+                modalWindow.className = modalWindow.className.replace("active", "");
+            }
+        });
+    }
+    document.querySelector("#mainIframe").addEventListener("load", ev => {
+        const new_style_element = document.createElement("style");
+        new_style_element.textContent = ".navbar { display: none; } .img-responsive {max-width: 50%;}"
+        ev.target.contentDocument.head.appendChild(new_style_element);
+        document.querySelector(".modal-fader").className += " active";
+        document.querySelector("#modal").className += " active";
+        
+    });
+</script>
