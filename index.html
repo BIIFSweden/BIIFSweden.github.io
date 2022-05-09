@@ -85,8 +85,10 @@ tipue_search_active: true
         </div>
     </div>
 </div>
-
-   
+{% unless paginator.next_page %}
+    <hr/>
+    © Copyright 2022, BioImage Informatics Facility.
+{% endunless %}
 <script src="/javascripts/jquery.jscroll.min.js"></script>
 
 <script>
