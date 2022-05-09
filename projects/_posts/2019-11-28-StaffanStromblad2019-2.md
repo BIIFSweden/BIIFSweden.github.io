@@ -11,7 +11,7 @@ funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities
 initdate: "2019-11-28"
 lastdate: "2020-06-05"
 # tags_: ""
-image: "/images/projects/2019-11-28-StaffanStrömblad2019-2.png"
+image: "/images/projects/2019-11-28-StaffanStromblad2019-2.png"
 
 
 ---
