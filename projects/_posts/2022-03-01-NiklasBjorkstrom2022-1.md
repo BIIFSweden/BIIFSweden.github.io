@@ -11,7 +11,7 @@ funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities
 initdate: "2022-03-01"
 lastdate: "Current"
 # tags_: ""
-image: "/images/projects/2022-03-01-NiklasBjörkström2022-1.png"
+image: "/images/projects/2022-03-01-NiklasBjorkstrom2022-1.png"
 
 
 ---
