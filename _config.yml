@@ -10,7 +10,7 @@ exclude:
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-paginate
-paginate: 20
+paginate: 40
 paginate_path: "/page:num"
 defaults:
   -
