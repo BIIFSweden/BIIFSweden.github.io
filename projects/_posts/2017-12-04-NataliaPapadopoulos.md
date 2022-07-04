@@ -17,3 +17,5 @@ tags_: "Microscopy, cell biology"
 
 ## Project Description
  This project investigates trafficking pathways of PDGFRb from the cell surface upon activation with PDGF-BB ligand. PDGFRb is known to form dot-like clusters upon activation that only partially co-localize with the known markers of intracellular organelles. This project is designed to identify novel markers and trafficking pathways of PGDFRb. In order to distinguish between the PDGFRb localized at the cell surface and the intracellular pools, the cell surfice PDGFRb is labelled with biotin. Thus, confocal microscopy with triple staining is used to estimate the co-localization of signals between the three types of molecules: biotin, PDGFRb and organelle marker. The pipeline is used to analyze the images and estimate the presence of biotinylated PDGFRb within a given organelle. 
+## Publication
+Sarri, N., Wang, K., Tsioumpekou, M. et al. Deubiquitinating enzymes USP4 and USP17 finetune the trafficking of PDGFRβ and affect PDGF-BB-induced STAT3 signalling. Cell. Mol. Life Sci. 79, 85 (2022). https://doi.org/10.1007/s00018-022-04128-1
