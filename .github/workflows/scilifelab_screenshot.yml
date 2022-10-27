@@ -1,0 +1,28 @@
+name: Generate screenshot
+on:
+  workflow_dispatch:
+  push:
+jobs:
+  screenshots:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: install puppeteer-headful
+      uses: mujo-code/puppeteer-headful@master # Required for headful puppeteer
+      env:
+        CI: 'true'
+    - name: screenshots-ci-action
+      uses: flameddd/screenshots-ci-action@master
+      with:
+        url: https://www.scilifelab.se/units/bioimage-informatics/
+        devices: iPhone 6,iPhone 6 landscape,Nexus 7,Pad Pro,Galaxy S III landscape,iPad Pro landscape
+    - uses: actions/upload-artifact@v2 # Uplaod screenshots to Actions Artifacts via actions/upload-artifact@v2
+      with:
+        path: screenshots
+        name: Download-screenshots
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4.2.5
+      with:
+        branch: gh-pages # The branch the action should deploy to.
+        folder: screenshots # The folder the action should deploy.
+        target-folder: assets/screenshots/
