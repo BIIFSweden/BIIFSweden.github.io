@@ -15,7 +15,9 @@ jobs:
       uses: flameddd/screenshots-ci-action@master
       with:
         url: https://www.scilifelab.se/units/bioimage-informatics/
-        devices: iPhone 6,iPhone 6 landscape,Nexus 7,Pad Pro,Galaxy S III landscape,iPad Pro landscape
+        fullPage: true,
+        noCommitHashFileName: true,
+        devices: iPhone 6
     - uses: actions/upload-artifact@v2 # Uplaod screenshots to Actions Artifacts via actions/upload-artifact@v2
       with:
         path: screenshots
