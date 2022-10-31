@@ -71,12 +71,18 @@ layout: null
 var tipuesearch = {"pages": [
 {%- for document in index -%}
   {%- assign tags = document.tags | uniq -%}
+  {%- assign external = document.external | uniq -%}
+  {%- assign author = document.author | uniq -%}
+  {%- assign keywords = document.keywords | uniq -%}
   {%- assign categories = document.categories | uniq -%}
   {%- assign taxonomies = tags | concat: categories | uniq -%}
   {
     "title": {{ document.title | smartify | strip_html | normalize_whitespace | jsonify }},
     "text": {{ document.content | strip_html | normalize_whitespace | jsonify }},
     "tags": {{ taxonomies | join: " " | normalize_whitespace | jsonify }},
+    "external": {{ external | join: " " | normalize_whitespace | jsonify }},
+    "author": {{ author | join: " " | normalize_whitespace | jsonify }},
+    "keywords": {{ keywords | join: " " | normalize_whitespace | jsonify }},
     "url": {{ document.url | relative_url | jsonify }}
   }{%- unless forloop.last -%},{%- endunless -%}
 {%- endfor -%}
