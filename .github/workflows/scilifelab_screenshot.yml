@@ -1,7 +1,6 @@
 name: Generate screenshot
 on:
   workflow_dispatch:
-  push:
 jobs:
   screenshots:
     runs-on: ubuntu-latest
