@@ -17,7 +17,6 @@ jobs:
         popupClass: .cli-bar-popup
         fullPage: true
         noCommitHashFileName: true
-        devices: iPhone 6
     - uses: actions/upload-artifact@v2 # Uplaod screenshots to Actions Artifacts via actions/upload-artifact@v2
       with:
         path: screenshots
