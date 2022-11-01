@@ -11,9 +11,10 @@ jobs:
       env:
         CI: 'true'
     - name: screenshots-ci-action
-      uses: flameddd/screenshots-ci-action@master
+      uses: cavenel/screenshots-ci-action@master
       with:
         url: https://www.scilifelab.se/units/bioimage-informatics/
+        popupClass: .cli-bar-popup
         fullPage: true
         noCommitHashFileName: true
         devices: iPhone 6
