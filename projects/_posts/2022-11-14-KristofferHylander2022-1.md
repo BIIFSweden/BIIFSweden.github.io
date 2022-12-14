@@ -11,7 +11,7 @@ funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities
 initdate: "2022-11-14"
 lastdate: "Current"
 # tags_: ""
-# github: ""
+github: "https://github.com/BIIFSweden/Digitizing-historical-range-maps"
 image: "/images/projects/2022-11-14-KristofferHylander2022-1.gif"
 
 
