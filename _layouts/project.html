@@ -5,7 +5,11 @@ layout: page
 <div class="row">
     <div class="col-lg-9">
         {% if page.image %}
-            <img src="{{  page.image }}" alt="{{ page.title }}" class="img-responsive">
+                    
+            <details open>
+                <summary style="display:list-item;cursor: pointer;">Illustration (click to hide):</summary>
+                <img src="{{  page.image }}" alt="{{ page.title }}" class="img-responsive">
+            </details>
         {% endif %}
         {{ content }}
         <br/>
