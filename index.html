@@ -59,7 +59,7 @@ tipue_search_active: true
                                 {% endif %}
                                 <div class="caption">
                                     <h4>{{ post.title | truncatewords: num_words_t }}</h4>
-                                    <p>{{ post.excerpt | strip_html | truncatewords: num_words }}</p>
+                                    <p>{{ post.excerpt | strip_html | truncatewords: num_words | replace_first: "Project Description", ""}}</p>
                                 </div>
                             </div>
                             <div class="caption">
