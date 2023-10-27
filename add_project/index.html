@@ -19,9 +19,18 @@ include_masonry: "true"
           <input type="input" class="form-control" id="author" placeholder="First Name Last Name, First Name Last Name" required>
         </div>
         <div class="form-group">
-          <label for="external">External Authors</label>
-          <input type="input" class="form-control" id="external" placeholder="Enter external authors" required>
+          <label for="externalPI">External PI</label>
+          <input type="input" class="form-control" id="externalPI" placeholder="Enter external PI" required>
         </div>
+        <div class="form-group">
+          <label for="externalPIEmail">External PI email</label>
+          <input type="input" class="form-control" id="externalPIEmail" placeholder="Enter external authors" required>
+        </div>
+        <div class="form-group">
+          <label for="externalContact">External contact</label>
+          <input type="input" class="form-control" id="externalContact" placeholder="Enter external contact" required>
+        </div>
+        <input style="display:none;" type="input" class="form-control" id="external" placeholder="Enter external authors" required>
         <div class="form-group">
           <label for="description">Long description</label>
           <textarea type="input" class="form-control" id="description" placeholder="Enter description" rows="10" required></textarea>
@@ -74,7 +83,9 @@ include_masonry: "true"
               <p>
                 <a class="btn btn-lg btn-primary" id="projectImageDL" href="#"></a><br/>Upload file to <a href="https://github.com/BIIFSweden/BIIFSweden.github.io/tree/gh-pages/images/projects" target="_blank">BIIFSweden.github.io/tree/gh-pages/images/projects</a>.<br/><br/>
                 <a class="btn btn-lg btn-primary" id="projectTextDL" href="#"></a><br/>Upload file to <a href="https://github.com/BIIFSweden/BIIFSweden.github.io/tree/gh-pages/projects/_posts" target="_blank">BIIFSweden.github.io/tree/gh-pages/projects/_posts</a>.<br/><br/>
-                When using the web interface, make sure that you upload the image <strong>before</strong> the .md file (at least 15 seconds).
+                When using the web interface, make sure that you upload the image <strong>before</strong> the .md file (at least 15 seconds).<br/><br/>
+                <a class="btn btn-lg btn-primary postLink" target="_blank" id="projectRedmine" href="#">Create issue on Redmine</a><br/><br/>
+                (You need to login first on <a target="_blank" href="https://projects.nbis.se/login">https://projects.nbis.se/login</a>).
               </p>
             </div>
           </div>
@@ -82,6 +93,17 @@ include_masonry: "true"
       </div>
 </div>
 <script>
+  // on edit of externalPI and externalContact, update external as the concatenation of the two:
+  var externalPI = document.getElementById('externalPI');
+  var externalContact = document.getElementById('externalContact');
+  var external = document.getElementById('external');
+  externalPI.addEventListener('input', (e) => {
+    external.value = externalContact.value + ", " + externalPI.value + ", " ;
+  });
+  externalContact.addEventListener('input', (e) => {
+    external.value = externalContact.value + ", " + externalPI.value + ", " ;
+  });
+
   var btnClose = document.getElementById('closeModal');
   btnClose.addEventListener('click', (e) => {
     var locModal = document.getElementById('downloadLinks');
@@ -112,6 +134,35 @@ include_masonry: "true"
     element.setAttribute('download', filename);
     element.innerHTML='<span class="glyphicon glyphicon-download-alt"></span>Download ' + filename;
     return filename
+  }
+  
+  function getRedmineLink(options) {
+    var url = "https://projects.nbis.se/issues/new?";
+    var keys = Object.keys(options);
+    var values = Object.values(options);
+    // encode URI:
+    values = values.map(
+      function (val) {
+        return encodeURIComponent(val).replaceAll("%5Cn", "%0A");
+      }
+    );
+    for (var i = 0; i < keys.length; i++) {
+      url += keys[i] + "=" + values[i] + "&";
+    }
+    return url;
+  }
+
+  function idFromUser (user) {
+    let users = {
+      "Anna Klemm":"264",
+      "Carolina Wahlby":"408",
+      "Christophe Avenel":"273",
+      "Fredrik Nysjö":"278",
+      "Gisele Miranda":"276",
+      "929":"Jonas Windhager",
+      "265":"Kevin Smith",
+    }
+    return (user in users) ? users[user] : null;
   }
 
   document.getElementById('my-form').addEventListener("submit",function(e) {
@@ -170,7 +221,32 @@ include_masonry: "true"
     text += document.getElementById("description").value;
     download(projectFilename + ".md", text)
     document.getElementById("downloadLinks").style.display = 'block';
-  });
+    
+    let dateLink = document.getElementById("initdate").value.replaceAll("-","/");
+    let webLink = `https://biifsweden.github.io/projects/${dateLink}/${projectID}/`;
 
+    let options = {
+      "issue[subject]": projectID,
+      "issue[description]": document.getElementById("title").value + "\\n" + "\\n" + 
+                            document.getElementById("description").value.substr(0,800) + "\\n" + "\\n" + 
+                            "Link to project in the BIIF project database: " + webLink,
+      "issue[assigned_to_id]":idFromUser(document.getElementById("author").value),
+      "issue[start_date]":document.getElementById("initdate").value,
+      "issue[estimated_hours]":20,
+      "issue[custom_field_values][5]":document.getElementById("externalPI").value,
+      "issue[custom_field_values][7]":"BioImage Informatics",
+      "issue[custom_field_values][8]":"SciLifeLab",
+      "issue[custom_field_values][13]":document.getElementById("externalContact").value,
+      "issue[custom_field_values][15]":20,
+      "issue[custom_field_values][17]":264,
+      "issue[custom_field_values][18]":document.getElementById("externalPIEmail").value,
+      "issue[custom_field_values][19]":"106 Biological Sciences",
+      "issue[custom_field_values][27]":"Bioimage Informatics",
+    }
+
+    let redmineLink = getRedmineLink(options);
+    var element = document.getElementById("projectRedmine");
+    element.setAttribute('href', redmineLink);
+  });
 
 </script>
