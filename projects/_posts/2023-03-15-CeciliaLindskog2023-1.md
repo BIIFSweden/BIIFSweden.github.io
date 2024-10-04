@@ -9,9 +9,9 @@ external: "Feria Hikmet Noraddin, Cecilia Lindskog Bergström"
 keywords: "multiplexed image analysis, vectra polaris"
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2023-03-15"
-lastdate: "Current"
+lastdate: "2024-11-30"
 # tags_: ""
-# github: ""
+github: "https://github.com/BIIFSweden/spermatogenesis-profiling"
 image: "/images/projects/2023-03-15-CeciliaLindskog2023-1.png"
 
 
