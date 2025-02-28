@@ -41,6 +41,13 @@ defaults:
       excerpt_separator: <!--more-->    
   -
     scope:
+      path: "courses"
+      type: "posts"
+    values:
+      layout: "courses"
+      excerpt_separator: <!--more-->    
+  -
+    scope:
       path: "add_project"
       type: "pages"
     values:

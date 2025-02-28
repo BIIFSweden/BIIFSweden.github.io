@@ -31,11 +31,26 @@
                             {% endfor %}
                         </ul>
                     </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" title="Training">
+                            Training
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCFtGwYOJ59WdUshqv3ujIAg" title="BIIF YouTube channel">YouTube channel</a>
+                            </li>
+                            <hr style="margin-top: 2px; margin-bottom: 7px;"/>
+                            {% for post in site.categories.courses limit:100 %}
+                                <li>
+                                    <a href="{{ post.url }}">
+                                        {{ post.title }}
+                                    </a>
+                                </li>
+                            {% endfor %}
+                        </ul>
                     <li>
                         <a target="_blank" href="https://scilifelab.se/facilities/bioimage-informatics/" title="BIIF Page at SciLifeLab">Home page at SciLifeLab</a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.youtube.com/channel/UCFtGwYOJ59WdUshqv3ujIAg" title="BIIF YouTube channel">YouTube channel</a>
                     </li>
                 </ul>
                 <!-- items below float right, so appear in reverse order -->
