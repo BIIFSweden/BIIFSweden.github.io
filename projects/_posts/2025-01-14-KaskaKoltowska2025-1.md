@@ -11,7 +11,7 @@ funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities
 initdate: "2025-01-14"
 lastdate: "Current"
 # tags_: ""
-# github: ""
+github: "https://github.com/BIIFSweden/KaskaKoltowska2025-1"
 image: "/images/projects/2025-01-14-KaskaKoltowska2025-1.png"
 
 
