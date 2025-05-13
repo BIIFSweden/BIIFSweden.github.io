@@ -35,7 +35,7 @@ More often than not, when they get to it and find a colleague to help them build
 
 ## Lecture
 
-<iframe src="https://www.youtube.com/embed/v=tqiq2wKrMLY" width="640" height="360" allow="autoplay"></iframe>
+<iframe src="https://www.youtube.com/embed/tqiq2wKrMLY" width="640" height="360" allow="autoplay"></iframe>
 
 The full slides with presenter notes can be downloaded [here](https://docs.google.com/presentation/d/1WGdfCl6SW58hIDx7Aa7kflWPgzzWAyPt/edit?usp=drive_link&ouid=106384425332989441348&rtpof=true&sd=true).
 
