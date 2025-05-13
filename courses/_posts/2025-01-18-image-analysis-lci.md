@@ -25,7 +25,7 @@ More often than not, when they get to it and find a colleague to help them build
 
 ## Learning Objectives
 
-- Meet the [Bioimage Informatics facility](https://www.scilifelab.se/facilities/bioimage-informatics/) experts one can turn to for help with image analysis.
+- Meet the [Bioimage Informatics Unit](https://www.scilifelab.se/facilities/bioimage-informatics/) experts one can turn to for help with image analysis.
 
 - Practice pipelines of typical examples of what can be done with image analysis and the limitations for each examples.
 
