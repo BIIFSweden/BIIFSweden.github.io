@@ -3,7 +3,7 @@
 # Text on a line after a "#" is a comment and is ignored for the published page.
 
 title: "Amyloid Formation Under Stress Conditions in Pancreatic Islets"
-author: ["Maximilian Senftlenem"]
+author: ["Maximilian Senftleben"]
 external: "Evgenii Bogatikov, Joey Lau Börjesson, "
 # excerpt: ""
 keywords: "3D organoids, segmentation, multi-channel"
