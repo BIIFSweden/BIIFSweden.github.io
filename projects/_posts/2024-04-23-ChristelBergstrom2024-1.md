@@ -3,9 +3,9 @@
 # Text on a line after a "#" is a comment and is ignored for the published page.
 
 title: "Particle tracking for drug diffusion and dissolution in the mucus layer"
-author: ["Kristina Lidayova"]
+author: ["Kristína Lidayová"]
 external: "Marco Tjakra, Christel Bergström"
-# excerpt: ""
+# excerpt: "Nanoparticles used as drug carriers diffuse at different rates depending on their interactions with the surrounding medium. In this project, we investigated how drug-carrying particles move within both natural and artificial mucus."
 keywords: "tracking, nanoparticles, "
 funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities/bioimage-informatics)"
 initdate: "2024-04-23"
