@@ -11,7 +11,7 @@ funding: "SciLifeLab BioImage Informatics Facility (www.scilifelab.se/facilities
 initdate: "2024-04-23"
 lastdate: "2024-10-10"
 # tags_: ""
-# github: "https://github.com/BIIFSweden/ChristelBergstrom2024-1"
+github: "https://github.com/BIIFSweden/ChristelBergstrom2024-1"
 image: "/images/projects/2024-04-23-ChristelBergstrom2024-1.png"
 
 
