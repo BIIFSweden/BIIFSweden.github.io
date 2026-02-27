@@ -23,3 +23,5 @@ Nanoparticles used as drug carriers diffuse at different rates depending on thei
 In this project, we investigated how drug-carrying particles move within both native and artificial mucus. Our objective was to quantify particle diffusivity by calculating the mean squared displacement (MSD) from particle trajectories. Because MSD analysis is highly dependent on accurate trajectory data, improving particle tracking was a critical component of the study.
 
 To address this, we developed an advanced image-analysis pipeline capable of isolating and tracking nanoparticles in the heterogeneous background of mucus. The pipeline generated high-quality quantitative trajectory data, which then served as input for downstream mathematical modeling and machine-learning analysis.
+
+Read the full publication: [Tjakra et al, 2025](https://link.springer.com/article/10.1186/s12951-025-03659-6#Sec2)
