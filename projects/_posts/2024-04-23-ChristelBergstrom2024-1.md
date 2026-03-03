@@ -24,5 +24,6 @@ In this project, we investigated how drug-carrying particles move within both na
 
 To address this, we developed an advanced image-analysis pipeline capable of isolating and tracking nanoparticles in the heterogeneous background of mucus. The pipeline generated high-quality quantitative trajectory data, which then served as input for downstream mathematical modeling and machine-learning analysis.
 
+
 Read the full publication: [_Machine learning framework for investigating nano- and micro-scale particle diffusion in colonic mucus._, Tjakra, M., **Lidayová, K.**, **Avenel, C.** et al., J Nanobiotechnol 23, 583 (2025).](https://link.springer.com/article/10.1186/s12951-025-03659-6#Sec2)
 
