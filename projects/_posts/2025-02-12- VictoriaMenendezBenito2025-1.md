@@ -18,8 +18,12 @@ image: "/images/projects/2025-02-12- VictoriaMenendezBenito2025-1.JPG"
 ---
 
 ## Project Description
-This project aims to develop an automated image analysis pipeline for a genome-wide yeast screen to identify mutants sensitive to fatty acids. The screen involves spotting yeast mutant arrays on media containing different types of fatty acids. At the core of this project is the generation of a robust, automated segmentation and quantification pipeline to accurately measure colony surface area as a proxy for growth.
-Key aspects of the image analysis pipeline include:
+
+This project aimed to develop an automated image analysis pipeline for a genome-wide yeast screen designed to identify mutants sensitive to fatty acids. The screen involved spotting yeast mutant arrays on media containing different types of fatty acids.
+
+The central part of the project was the development of a robust, automated segmentation and quantification pipeline that measured colony surface area as a proxy for growth.
+
+Key components of the image analysis pipeline included:
 
 • Automated colony segmentation from plate images
 
@@ -29,4 +33,6 @@ Key aspects of the image analysis pipeline include:
 
 • Scalability to handle larger, high-density arrays
 
-This automated approach will significantly accelerate the screening process, allowing for rapid identification of hits. Moreover, the pipeline's adaptability makes it valuable not only for this specific project but also for future screening and Synthetic Genetic Array (SGA) projects in our lab and potentially for other scientists in the yeast genetics community. The overall significance of this project lies in its potential to uncover new insights into lipid metabolism, cellular adaptation to fatty acid exposure, and potentially lipotoxicity mechanisms. These findings will contribute to our understanding of fundamental biological processes and their implications for human health.
+This automated approach accelerated the screening process and enabled rapid identification of potential hits. The pipeline’s adaptability also made it useful beyond this project, allowing it to be applied to future screening and Synthetic Genetic Array (SGA) projects in the lab and potentially by other researchers in the yeast genetics community.
+
+Overall, the project provided a framework for identifying mutants involved in fatty-acid sensitivity and contributed tools for large-scale phenotypic screening. The results offered potential insights into lipid metabolism, cellular adaptation to fatty acid exposure, and mechanisms of lipotoxicity, contributing to a broader understanding of fundamental biological processes and their relevance to human health.
